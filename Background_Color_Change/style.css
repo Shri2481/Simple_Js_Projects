@@ -1,0 +1,22 @@
+body{
+    width: 99%;
+   
+}
+.btn{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    color: green;
+    font-size: 20px;
+    cursor: pointer;
+}

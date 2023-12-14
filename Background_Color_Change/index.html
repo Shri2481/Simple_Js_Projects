@@ -3,32 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bg Color Change</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    body{
-        width: 99%;
-       
-    }
-    .btn{
-     
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 500px;
-    }
 
-    #btn{
-        width: 100px;
-        height: 40px;
-        border-radius: 20px;
-        background-color: black;
-        color: green;
-        font-size: 20px;
-        cursor: pointer;
-    }
-</style>
 <body>
     
     <div class="btn">
@@ -36,23 +14,6 @@
         <button id="btn">Click</button>
     </div>
 
-    <script>
-        const changeBgColor = () =>{
-
-            let letters = "0123456789ABCDEF";
-            
-            let color = "#";
-
-            for(let i =0; i<6; i++){
-                color += letters[Math.floor(Math.random()*16)];
-            }
-
-            document.body.style.backgroundColor = color;
-            document.h1.style.color = color;
-
-        }
-    
-        document.getElementById('btn').addEventListener('click' , changeBgColor)
-    </script>
+  <script src="script.js"></script>
 </body>
 </html>
